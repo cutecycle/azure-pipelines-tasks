@@ -69,6 +69,8 @@ function Format-Splat {
     "$parameters" # String join the array.
 }
 
+
+# Check Here!
 if ($endpointObject.scheme -eq 'ServicePrincipal') {
     try {
         if ($endpointObject.authenticationType -ieq 'SPNKey') {
